@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "source": {
     "repository": "fchuang508/dotfiles",
-    "commit": "92ad6107491e532500932164a76c01d3f9563008"
+    "commit": "dc7cacbae0df609cd22a76ce3071a5ca961c0508"
   },
-  "bundleHash": "293d92e895a90dd3e0655cbf59af98d8656b87cf8934e53776fb0c110761f107",
+  "bundleHash": "28801f139b13d5a40cfd5fbb59d073aff93f1adc85cb1efc0a9de784de5c43d1",
   "services": [
     {
       "name": "ai-muse-us",
@@ -28,15 +28,25 @@
       "bytes": 1237,
       "gitBlob": "10950fe89617d214902bb1ec8ddfa4dfba74fc25"
     },
+    "network/adapters/shadowrocket-ios.conf": {
+      "sha256": "2db53fc1bd68e0b0a925f2c46a26636ee7f6b23cb4f30a7bf70c8a55d92b159b",
+      "bytes": 26079,
+      "gitBlob": "962f636f4273f69986a6953ffb0411dcbbef51e1"
+    },
     "network/adapters/shadowrocket.conf": {
       "sha256": "e43e17b7667c5319fbe6ad2f35c03b8a1f551f7a1b1f0c5b5fa0c9432aad13f6",
       "bytes": 481,
       "gitBlob": "9c35ba55965adf1959d43a971f9a54b88371fe77"
     },
+    "network/IOS.md": {
+      "sha256": "e12d0b85ea6759dd49f8e9efae2966c11a09894c73844e9a9f9045d91f4025c3",
+      "bytes": 1088,
+      "gitBlob": "ba73501c1dbac679703b8658f0b5ad6ef40615fb"
+    },
     "network/README.md": {
-      "sha256": "b457c22d555f99ba2fe6ac0bf1e8fb61f951e845d13d5fa9221e85bbe9c546d5",
-      "bytes": 892,
-      "gitBlob": "b9e297ce9105ef808f971fa708776945b9fe01d2"
+      "sha256": "7d5c733de2df77183a9f7368a2cb797fc0ff9434523e4c9a57b56d0463063dd3",
+      "bytes": 1249,
+      "gitBlob": "f6c17d02275f8d042d1b40ecfc7e4fe403039f24"
     },
     "network/rules/ai-claude.list": {
       "sha256": "8d39c994c8276d039f10d0b26d18d4ed187687535a60ced9717c0597c77d051e",
