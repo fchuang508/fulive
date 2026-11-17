@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "fchuang508/dotfiles",
+    "commit": "92ad6107491e532500932164a76c01d3f9563008"
+  },
+  "bundleHash": "293d92e895a90dd3e0655cbf59af98d8656b87cf8934e53776fb0c110761f107",
+  "services": [
+    {
+      "name": "ai-muse-us",
+      "target": "AI-Muse-US",
+      "count": 7
+    },
+    {
+      "name": "ai-openai",
+      "target": "AI-OpenAI",
+      "count": 4
+    },
+    {
+      "name": "ai-claude",
+      "target": "AI-Claude",
+      "count": 3
+    }
+  ],
+  "files": {
+    "network/adapters/clash.json": {
+      "sha256": "ba23d8cf483cb76b9c24acbf7f38e805ebafbeecc343af731c2910ddb74a6d32",
+      "bytes": 1237,
+      "gitBlob": "10950fe89617d214902bb1ec8ddfa4dfba74fc25"
+    },
+    "network/adapters/shadowrocket.conf": {
+      "sha256": "e43e17b7667c5319fbe6ad2f35c03b8a1f551f7a1b1f0c5b5fa0c9432aad13f6",
+      "bytes": 481,
+      "gitBlob": "9c35ba55965adf1959d43a971f9a54b88371fe77"
+    },
+    "network/README.md": {
+      "sha256": "b457c22d555f99ba2fe6ac0bf1e8fb61f951e845d13d5fa9221e85bbe9c546d5",
+      "bytes": 892,
+      "gitBlob": "b9e297ce9105ef808f971fa708776945b9fe01d2"
+    },
+    "network/rules/ai-claude.list": {
+      "sha256": "8d39c994c8276d039f10d0b26d18d4ed187687535a60ced9717c0597c77d051e",
+      "bytes": 158,
+      "gitBlob": "bf3142b783b5aa3dfde15d8eb618963b40da3c41"
+    },
+    "network/rules/ai-muse-us.list": {
+      "sha256": "6b174c2a7236204d00c0ba5565ccc2eb70eeb599a596927959f1d196a195bcdd",
+      "bytes": 261,
+      "gitBlob": "3555cb5083fcec0b501bb2456836ece2621ddf45"
+    },
+    "network/rules/ai-openai.list": {
+      "sha256": "747728cd797bade19b62e3351e7a2efcd0889d566b836da3dbae17f35041f91c",
+      "bytes": 193,
+      "gitBlob": "62635f653c5a9970f550538d550b18810a541f91"
+    }
+  }
+}
