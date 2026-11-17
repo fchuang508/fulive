@@ -1,0 +1,36 @@
+{
+  "rule-providers": {
+    "fc-service-ai-muse-us": {
+      "type": "http",
+      "behavior": "classical",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/fchuang508/fulive/main/network/rules/ai-muse-us.list",
+      "path": "./ruleset/ai-muse-us.list",
+      "interval": 86400
+    },
+    "fc-service-ai-openai": {
+      "type": "http",
+      "behavior": "classical",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/fchuang508/fulive/main/network/rules/ai-openai.list",
+      "path": "./ruleset/ai-openai.list",
+      "interval": 86400
+    },
+    "fc-service-ai-claude": {
+      "type": "http",
+      "behavior": "classical",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/fchuang508/fulive/main/network/rules/ai-claude.list",
+      "path": "./ruleset/ai-claude.list",
+      "interval": 86400
+    }
+  },
+  "rules": [
+    "RULE-SET,fc-service-ai-muse-us,AI-Muse-US",
+    "AND,((RULE-SET,fc-service-ai-muse-us),(NETWORK,UDP)),REJECT",
+    "RULE-SET,fc-service-ai-openai,AI-OpenAI",
+    "AND,((RULE-SET,fc-service-ai-openai),(NETWORK,UDP)),REJECT",
+    "RULE-SET,fc-service-ai-claude,AI-Claude",
+    "AND,((RULE-SET,fc-service-ai-claude),(NETWORK,UDP)),REJECT"
+  ]
+}

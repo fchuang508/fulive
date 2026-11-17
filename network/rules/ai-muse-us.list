@@ -1,0 +1,9 @@
+# ai-muse-us
+# 自動產出；單一來源：dotfiles/NetworkPolicy/services.json
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN,hatch-api.meta.ai
+DOMAIN,gateway.meta.ai
+DOMAIN,edge-chat-latest.meta.ai
+DOMAIN,edge-chat.meta.ai
+DOMAIN,shortwave.meta.ai
